@@ -1,9 +1,12 @@
+import HomePage from "@/components/HomePage";
+import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to my Ecommerce Store!</h1>
+      <Navbar/>
+      <HomePage/>
     </div>
   );
 }
