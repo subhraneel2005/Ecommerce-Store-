@@ -5,8 +5,11 @@ import {clothings} from "@/components/clothes";
 import ClothProductCard from "@/components/ClothProductCard"
 import {arrivals} from "@/components/newArrivals"
 import ArrivalCard from "@/components/ArrivalCard"
+import { useRouter } from 'next/navigation';
 
 const HomePage = () => {
+
+
   return (
     <div className="container mx-auto p-4 bg-gray-950">
       {/* Promotional Banner */}
@@ -33,7 +36,9 @@ const HomePage = () => {
         <h2 className="text-2xl font-bold mb-4">Featured Products</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {productsData.map((product) => (
+          
           <ProductCard key={product._id} product={product} />
+          
         ))}
         </div>
       </div>

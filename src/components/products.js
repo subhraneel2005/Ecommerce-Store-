@@ -1,6 +1,6 @@
 export const productsData = [
     {
-      "_id": 101,
+      "_id": 1,
       "title": "Canon EOS Rebel T100",
       "des": "Canon EOS Rebel T100 Digital SLR Camera with 18-55mm Lens Kit, 18 Megapixel Sensor, Wi-Fi, DIGIC4+, SanDisk 32GB Memory Card and Live View Shooting",
       "oldPrice": "700.00",
@@ -11,7 +11,7 @@ export const productsData = [
       "category": "Electronics"
     },
     {
-      "_id": 102,
+      "_id": 2,
       "title": "DJI Air",
       "des": "DJI Mini 2 Fly More Combo - Ultralight Foldable Drone, 3-Axis Gimbal with 4K Camera, 12MP Photos, 31 Min Flight Time",
       "oldPrice": "1050.00",
@@ -22,7 +22,7 @@ export const productsData = [
       "category": "Electronics"
     },
     {
-      "_id": 103,
+      "_id": 3,
       "title": "Apple 10.2-inch iPad",
       "des": "2021 Apple 10.2-inch iPad Wi-Fi 64GB - Space Gray (9th Generation)",
       "oldPrice": "329.00",
@@ -33,7 +33,7 @@ export const productsData = [
       "category": "Electronics"
     },
     {
-      "_id": 104,
+      "_id": 4,
       "title": "iPhone 14",
       "des": "AT&T iPhone 14 128GB Midnight",
       "oldPrice": "1745.99",
@@ -44,7 +44,7 @@ export const productsData = [
       "category": "Electronics"
     },
     {
-      "_id": 105,
+      "_id": 5,
       "title": "Apple Watch SE",
       "des": "Apple Watch SE (2nd Gen) GPS 40mm Midnight Aluminum Case with Midnight Sport Band - S/M",
       "price": "249.00",
@@ -54,7 +54,7 @@ export const productsData = [
       "category": "Electronics"
     },
     {
-      "_id": 106,
+      "_id": 6,
       "title": "Beats Solo3",
       "des": "Beats Solo3 Wireless On-Ear Headphones with Apple W1 Headphone Chip, Black, MX432LL/A",
       "oldPrice": "120.99",
@@ -65,7 +65,7 @@ export const productsData = [
       "category": "Electronics"
     },
     {
-      "_id": 107,
+      "_id": 7,
       "title": "uhomepro TV Stand Cabinet",
       "des": "uhomepro TV Stand Cabinet for Living Room up to 55 Television, Entertainment Center with RGB LED Lights and Storage Shelves Furniture, Black High Gloss TV Cabinet Console Table, Q15709",
       "oldPrice": "219.99",
@@ -76,7 +76,7 @@ export const productsData = [
       "category": "Home Decoration"
     },
     {
-      "_id": 108,
+      "_id": 8,
       "title": "T-Shirt Men",
       "des": "St Patricks Day T-Shirt Men -Image by Shutterstock, Male XX-Large",
       "oldPrice": "15.00",
@@ -87,7 +87,7 @@ export const productsData = [
       "category": "Fashion"
     },
     {
-      "_id": 109,
+      "_id": 9,
       "title": "Picnic Table Bench Set",
       "des": "Costway Picnic Table Bench Set Outdoor Backyard Patio Garden Party Dining All Weather Black",
       "oldPrice": "169.99",
@@ -98,7 +98,7 @@ export const productsData = [
       "category": "Home Decoration"
     },
     {
-      "_id": 110,
+      "_id": 10,
       "title": "Grill Heavy Duty",
       "des": "Expert Grill Heavy Duty 24-Inch Charcoal Grill, Black",
       "price": "107.00",
@@ -108,7 +108,7 @@ export const productsData = [
       "category": "Equipments"
     },
     {
-      "_id": 111,
+      "_id":11,
       "title": "Girls Cropped",
       "des": "Free Assembly Girls Cropped Mixed Cable Knit Fair Isle Sweater, Sizes 4-18",
       "oldPrice": "20.00",
@@ -119,7 +119,7 @@ export const productsData = [
       "category": "Fashion"
     },
     {
-      "_id": 112,
+      "_id":12,
       "title": "Night of Olay Firming Night Cream Face Moisturizer, 1.9 oz",
       "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
       "price": "7.98",
@@ -129,7 +129,7 @@ export const productsData = [
       "category": "Beauty Product"
     },
     {
-      "_id": 113,
+      "_id":13,
       "title": "Face LiquidSweet Lightweight Beauty Products for Women",
       "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
       "price": "7.62",
@@ -139,7 +139,7 @@ export const productsData = [
       "category": "Beauty Product"
     },
     {
-      "_id": 114,
+      "_id":14,
       "title": "L'Oreal Paris Revitalift Triple Power Anti-Aging Cream Face Moisturizer 1.7 oz",
       "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
       "oldPrice": "35.00",
@@ -161,7 +161,7 @@ export const productsData = [
       "category": "Beauty Product"
     },
     {
-      "_id": 116,
+      "_id":16,
       "title": "Vaseline Intensive Care™ Advanced Repair Unscented Body Lotion, 20.3 oz",
       "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
       "oldPrice": "9.99",
@@ -172,7 +172,7 @@ export const productsData = [
       "category": "Beauty Product"
     },
     {
-      "_id": 117,
+      "_id":17,
       "title": "CeraVe Healing Ointment, Protects and Soothes Cracked Skin, 12 oz",
       "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
       "oldPrice": "25.35",
@@ -183,7 +183,7 @@ export const productsData = [
       "category": "Beauty Product"
     },
     {
-      "_id": 118,
+      "_id":18,
       "title": "Neutrogena Hydro Boost Hyaluronic Acid Water Gel Face Moisturizer, 1.7 oz",
       "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
       "oldPrice": "29.00",
@@ -194,7 +194,7 @@ export const productsData = [
       "category": "Beauty Product"
     },
     {
-      "_id": 119,
+      "_id":19,
       "title": "L'Oreal Paris Collagen Moisture Filler Facial Treatment Day Night Cream, Anti-Aging, 1.7 oz",
       "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
       "oldPrice": "14.00",
@@ -205,7 +205,7 @@ export const productsData = [
       "category": "Beauty Product"
     },
     {
-      "_id": 120,
+      "_id":20,
       "title": "Girls Sleeveless Cutout",
       "des": "Free Assembly Girls Sleeveless Cutout Jumpsuit, Sizes 4-18",
       "oldPrice": "52.00",

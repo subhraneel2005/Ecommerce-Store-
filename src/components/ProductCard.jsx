@@ -1,9 +1,14 @@
-// components/ProductCard.tsx
+import { useRouter } from "next/navigation";
 
+const ProductCard= ({ product }) => {
+  const router = useRouter();
 
-const ProductCard: React.FC = ({ product }: any) => {
+  const handleClick = (id) => {
+    router.push(`/${id}`);
+  };
+
   return (
-    <div className="bg-gray-200 border border-gray-500 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+    <div className="bg-gray-200 border border-gray-500 cursor-pointer rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"  onClick={() => handleClick(product._id)}>
         <div className="relative">
           {product.isNew && (
             <span className="absolute top-2 z-10 left-2 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
