@@ -119,7 +119,9 @@ const HomePage = () => {
     <div className="container mx-auto p-4 bg-gray-950">
       {/* Promotional Banner */}
       <div className="carousel carousel-center space-x-4 w-full mb-8">
-        {/* Carousel items */}
+          <div className="w-full h-60 bg-gray-200 overflow-hidden flex items-center justify-center">
+            <img className=' bg-center' src='/banner.jpg'/>
+          </div>
       </div>
 
       {/* Featured Products */}
